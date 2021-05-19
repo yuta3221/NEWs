@@ -1,25 +1,33 @@
 # simple-chat
 
-## Project setup
+## タイトル
 ```
-yarn install
+シンプルチャットアプリ
+
+サイトリンク　　https://chat-vue-app-fce21.web.app/
 ```
 
-### Compiles and hot-reloads for development
+### 概要
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+リアルタイムでコメントリアルタイムでコメントが同期されるアプリです。
 ```
 
-### Lints and fixes files
+### 機能
 ```
-yarn lint
+・コメントの追加
+・コメントの削除
+が可能です。
+ユーザー認証はありません。
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-＃NEWs
+### アピールポイント
+```
+別プラウザでwebアプリを開いて、どちらかでおこなった操作が別の方にもリロードなしで、
+同期されます。
+```
+
+### 使用技術
+・Vue.js
+・Firebase
+・vuetifyjs
+・Firestore
